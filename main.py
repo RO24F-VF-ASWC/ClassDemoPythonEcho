@@ -2,7 +2,7 @@ from socket import *
 
 # Sætter nogle variable 
 servername = 'localhost'
-serverport = 7
+serverport = 12001
 
 clientSocket = socket(AF_INET, SOCK_STREAM)
 clientSocket.connect((servername,serverport))
